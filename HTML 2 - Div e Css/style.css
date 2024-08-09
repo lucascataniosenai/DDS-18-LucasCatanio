@@ -1,0 +1,49 @@
+#body-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+    height: 100vh;
+}
+header{
+    background-color: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 10vh;
+}
+#h1-header{
+    color: white;
+}
+#red-body{
+    background-color: red;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    border: 1px black solid;
+    align-content: center;
+
+}
+.green-div{
+    background-color: green;
+    border: 1px black solid;
+    width: 90%;
+    margin: 5%;
+
+}
+.p-green-div{
+
+}
+footer{
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 10vh;
+}
+#p-footer{
+    color: white;
+}

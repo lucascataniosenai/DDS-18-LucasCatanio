@@ -1,0 +1,30 @@
+div{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+.pink{
+    background-color: #F0F;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#primeira{
+    margin: 20px;
+
+}
+#segunda{
+
+}
+#terceira{
+    border: 5px black solid;
+    border-width: 10px;
+    border-color: coral;
+    border-style: doublec;
+}

@@ -1,0 +1,24 @@
+#arial-red{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#times-green-22{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 22;
+}
+
+#comic-blue-20-italic{
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: 20;
+    font-style: italic;
+    color: blue;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+}

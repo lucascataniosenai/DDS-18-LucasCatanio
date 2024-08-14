@@ -1,40 +1,33 @@
-/* Cor de fundo de uma página azul claro */
 .background-lightblue {
     background-color: lightblue;
 }
 
-/* Cor de fundo de um parágrafo em verde claro */
 .background-lightgreen {
     background-color: lightgreen;
 }
 
-/* Imagem de fundo que permite repetição em qualquer direção e que não acompanha o deslocamento da página */
 .background-repeat-fixed {
     background-image: url('Tamanduá-bandeira.-Luiz-Carlos-Rocha-Flickr-2008.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
 }
 
-/* Imagem de fundo repetida na vertical */
 .background-repeat-vertical {
     background-image: url('besouro_900.jpg');
     background-repeat: repeat-y;
 }
 
-/* Imagem de fundo que não se repete */
 .background-no-repeat {
     background-image: url('Feinho-ne-Conheca-o-peixe-bolha-e-o-motivo-de-sua-aparencia-tao-estranha-1.jpg');
     background-repeat: no-repeat;
 }
 
-/* Imagem de fundo centralizada e que não se repete */
 .background-center-no-repeat {
     background-image: url('46.Baiacu.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* Fundo amarelo, imagem de fundo sem repetição, centralizada e que acompanha o deslocamento da página */
 .background-yellow-center-no-repeat-scroll {
     background-color: yellow;
     background-image: url('sua-imagem.jpg');

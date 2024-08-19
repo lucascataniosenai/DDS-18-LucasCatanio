@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+    height: 600;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 200px;
+    width: 200px;
+    margin: 5px 10px;
+}
+
+#quad1{
+    background-color: red;
+}
+
+#quad2{
+    background-color: yellow;
+}
+
+#quad3{
+    background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+}

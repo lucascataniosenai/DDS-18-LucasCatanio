@@ -112,14 +112,13 @@ console.log(indefinido)
 // teste1();
 // teste2();
 
-var  n1 = Number(prompt("Digite um algo"))
-var  n2 = Number(prompt("Digite um algo dnv"))
-soma = n1 + n2
-console.log(n1);
-console.log(n2);
-console.log("Soma:", soma);
+// var  n1 = Number(prompt("Digite um algo"))
+// var  n2 = Number(prompt("Digite um algo dnv"))
+// soma = n1 + n2
+// console.log(n1);
+// console.log(n2);
+// console.log("Soma:", soma);
 
-alert(n1)
-alert(n2)
-alert("Soma: " + soma)
-
+// alert(n1)
+// alert(n2)
+// alert("Soma: " + soma)

@@ -30,7 +30,7 @@ function mostrarAprovados(){
             
         }
         else if(mediaAtual < 5){
-            console.log("O aluno", alunos[index], "ficou reprovado.");
+            console.log("O aluno", alunos[index], "ficou");
             
         }
         else{

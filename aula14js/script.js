@@ -53,14 +53,16 @@ var atualizarRelogio = setInterval(function () {
   var diaAtual = dataAtual.getDate().toString().padStart(2, "0")
   var mesAtual = dataAtual.getMonth()
   var anoAtual = dataAtual.getFullYear()
+  var horaDesformatada = dataAtual.getHours()
   //console.log(dataAtual);
   horas.textContent = horaAtual
   minutos.textContent = minutoAtual
   segundos.textContent = segundoAtual
-  saudacao.textContent = diaAtual + "/" + numeroMes[mesAtual] + "/" + anoAtual + " - " + diasSemana[diaSemanaAtual]''
-
-  horaDesformatada = dataAtual.getHours()
+  saudacao.textContent = diaAtual + "/" + numeroMes[mesAtual] + "/" + anoAtual + " - " + diasSemana[diaSemanaAtual]
   comprimento = bom(horaDesformatada)
+  bom.textContent = comprimento
+
+
 
 })
 
